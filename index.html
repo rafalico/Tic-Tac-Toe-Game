@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./index.js" defer></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body data-theme="dark">
+  <header>
+    <h1>TIC TAC TOE</h1>
+  </header>
+
+  <main>
+    <h2>Players' names:</h2>
+    <div id="names">
+      <span class="xStyle">X</span>
+      <input type="text" id="playerName1" placeholder="Player 1">
+      VS
+      <input type="text" id="playerName2" placeholder="Player 2">
+      <span class="oStyle">O</span>
+    </div>
+
+    <div id="startBtnContainer">
+      <button id="startBtn">Start game</button>
+    </div>
+
+    <div id="scoreboardContainer">
+      <input type="text" id="scoreboard" disabled>
+    </div>
+
+    <div id="board">
+      <button class="squares" data-region="0.0"></button>
+      <button class="squares" data-region="0.1"></button>
+      <button class="squares" data-region="0.2"></button>
+      <button class="squares" data-region="1.0"></button>
+      <button class="squares" data-region="1.1"></button>
+      <button class="squares" data-region="1.2"></button>
+      <button class="squares" data-region="2.0"></button>
+      <button class="squares" data-region="2.1"></button>
+      <button class="squares" data-region="2.2"></button>
+    </div>
+  </main>
+</body>
+</html>
